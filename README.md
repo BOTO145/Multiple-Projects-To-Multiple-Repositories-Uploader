@@ -1,4 +1,4 @@
-# Arduino Project Publisher
+# Multiple Projects To Multiple Repositories Uploader
 
 A Python tool that automatically processes Arduino/ESP32 projects, generates meaningful names and documentation using Google's Gemini AI, and uploads them to GitHub repositories.
 
