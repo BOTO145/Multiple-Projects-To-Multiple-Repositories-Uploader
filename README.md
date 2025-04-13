@@ -101,18 +101,10 @@ The script will:
 - `push_to_github(project_path, repo_url)`: Pushes the project to GitHub
 - `process_projects()`: Main function to process all Arduino projects
 
-## Security Notes
-
-⚠️ **Important**: The current code includes API keys and tokens directly in the script. For security:
-
-1. Move credentials to environment variables or a separate configuration file
-2. Add this configuration file to your `.gitignore`
-3. Never commit credentials to version control
-
 ## Contributing
 
 Feel free to submit issues or pull requests to improve the functionality of this tool.
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source.
