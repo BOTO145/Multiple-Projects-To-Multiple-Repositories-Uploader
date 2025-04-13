@@ -27,6 +27,44 @@ pip install requests gitpython google-generativeai
 - GitHub personal access token
 - Google Gemini API key
 
+## Creating a GitHub Personal Access Token
+To create a GitHub personal access token (which you need for your Arduino Project Publisher script), follow these steps:
+Step 1: Navigate to Developer Settings
+
+Log in to your GitHub account
+Click on your profile picture in the top-right corner
+Select "Settings" from the dropdown menu
+Scroll down to find "Developer settings" in the left sidebar (or go directly to https://github.com/settings/tokens)
+
+Step 2: Generate a New Token
+
+Click on "Personal access tokens" and then "Tokens (classic)"
+Click the "Generate new token" button (or "Generate new token (classic)")
+Give your token a descriptive name in the "Note" field (e.g., "Arduino Project Publisher")
+
+Step 3: Set Permissions
+For your project, you'll need the following permissions:
+
+Select the "repo" scope to enable full control of repositories
+If you plan to create organizations or manage team membership, you might need additional scopes
+
+Step 4: Generate and Copy Token
+
+Scroll down and click "Generate token"
+IMPORTANT: Copy your new token immediately and store it safely. GitHub will only show it once!
+
+## Google Gemini API key:
+
+-Go to https://ai.google.dev/
+
+-Create a project (if you don't have one)
+
+-Enable the Gemini API
+
+-Create API credentials and copy your API key
+
+-Remember to keep all API keys and tokens secure and never share them publicly!
+
 ## Setup Instructions
 
 1. Clone this repository
