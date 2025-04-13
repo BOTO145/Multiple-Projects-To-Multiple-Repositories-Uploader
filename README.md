@@ -52,14 +52,7 @@ The script will:
 5. Push the project files to the new repository
 
 ## Project Structure
-#├── main-send.py         # Main script for uploading projects
-#├── test-gemini.py       # Test script for Gemini API functionality
-#└── projects/            # Directory containing Arduino projects
-    #├── project1/        # Individual project folders
-    #│   └── project1.ino
-    #├── project2/
-    #│   └── project2.ino
-    #└── ...
+![Arduino Project Publisher Logo](structure/structure.jpg)
 
 ## Functions
 
